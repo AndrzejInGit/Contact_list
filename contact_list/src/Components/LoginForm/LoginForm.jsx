@@ -4,6 +4,7 @@ import { CiUser, CiLock } from "react-icons/ci";
 
 const LoginForm = () => {
   return (
+    <div class="content">
     <div class="wrapper">
       <form action="">
         <h1>Logowanie</h1>
@@ -26,6 +27,7 @@ const LoginForm = () => {
             <p>Nie masz konta? <a href="#">Zarajestruj się</a></p>
           </div>
       </form>
+    </div>
     </div>
   )
 }

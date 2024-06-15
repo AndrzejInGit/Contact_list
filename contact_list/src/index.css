@@ -7,14 +7,18 @@
 }
 
 body {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+ 
   background-image: url('https://www.pixel4k.com/wp-content/uploads/2018/03/HD%20Desktop%20Blue206572979.jpg');
   font-family: "Outfit", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.content{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 code {

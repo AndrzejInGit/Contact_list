@@ -1,0 +1,118 @@
+.contentMainSite{
+    min-height: 20vh;
+    min-width: 80%;
+    padding: 5vh 0;
+    margin:0 auto;
+}
+
+.MainWrapper p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.MainWrapper h1{
+    color: white;
+    text-align: center;
+}
+
+.list{
+    display: flex;
+    width: 60%;
+    margin: 5vh auto;
+    justify-content: space-between;
+}
+
+li{
+    align-content: center;
+    font-size: 16px;
+    color: #fff;
+    list-style: none;
+    background-color: transparent;   
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+    width:85%;
+}
+
+.deleteContactbutton{
+    border-radius: 40px;
+    border: none;
+    padding: 10px 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.addContact{
+    display: flex;
+    justify-content: center;
+    margin:2vh auto;
+    width: 80%;
+}
+.addContact input{
+    background-color: transparent;   
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.addContactbutton{
+
+    border-radius: 40px;
+    border: none;
+    padding: 15px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.addContact input::placeholder{
+    color: #fff;
+ }
+
+ @media(max-width: 600px){
+
+    .contentMainSite{
+        max-width: 95%;
+    }
+
+
+    .addContact{
+        display: grid;
+        justify-content: center;
+        margin: 2vh auto;
+        width: 80%;
+    }
+
+    .addContact input{
+        margin:1vh 0;
+    }
+
+
+    li{
+        width:100%;
+    }
+
+    .list{
+        display:block;
+        min-width: 100%;
+        margin:5vh auto;
+    }
+
+    .deleteContactbutton{
+        margin-top:1vh;
+        align-content: center;
+    }
+ }

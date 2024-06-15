@@ -4,6 +4,7 @@ import { CiUser, CiLock } from "react-icons/ci";
 
 const RegisterForm = () => {
   return (
+    <div class="content">
     <div class="wrapper">
       <form action="">
         <h1>Rejestracja</h1>
@@ -33,7 +34,7 @@ const RegisterForm = () => {
             <p>Masz już konto? <a href="#">Zaloguj się</a></p>
           </div>
       </form>
-    </div>
+    </div></div>
   )
 }
 
